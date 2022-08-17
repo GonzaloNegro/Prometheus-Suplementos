@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    }
+    body {
+        background-image: url(../images/fondo2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 20px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 35px;
+        margin-right: 60px;
+    }
+    .container {
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 65px;
+        margin-bottom: 65px;
+        position: relative;
+        padding-bottom: 2rem;
+        display: none;
+        
+    }
+    .cfondo {
+        width: 100%;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.323);
+    }
+    .cfondo div {
+        margin: 100px 40px;
+        color: white;
+        transition: all 500ms;
+    
+    }
+    .cfondo div p,
+    .cfondo div button {
+        margin-top: 30px;
+    
+    }
+    .cfondo div h3{
+        font-weight: 400;
+        font-size: 26px;
+    
+    }
+    .cfondo button{
+        padding: 10px 40px;
+        border: 2px solid rgba(0, 0, 0, 0.706);
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        outline: none;
+        transition: 300ms;
+    }
+    .cfondo button:hover {
+        background-color: black;
+    }
+    .container__register{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 350px;
+        position: relative;
+        top: -200px;
+        left: 10px;
+    }
+    .container__register form{
+        width: 100%;
+        padding: 80px 20px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        border-radius: 15px;
+
+    }
+    .container__register form h2{
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+        color:rgba(0, 0, 0, 0.623);
+    }
+    
+    .container__register form input {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        border: none;
+        background: #f2f2f2;
+        font-size: 16px;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.323) ;;
+        border-radius: 10px;
+    
+    }
+    .container__register form  button{
+        padding: 10px 40px;
+        margin-top: 40px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+    }
+
+    #btn__ingresardatos:hover{
+        color: white;
+        background-color:rgba(0, 0, 0, 0.623) ;
+    }
+
+    .cfondo-register{
+        width: auto;
+    }
+    .form__login {
+        opacity: 1;
+        display: block;
+    }
+    #btn__login:hover{
+        color: white;
+        background-color:rgba(0, 0, 0, 0.623) ;
+    }
+    .form__register{
+        display: none;
+    }
+    @media screen and (max-width:790px){
+        main {
+            margin-top: 50px;
+        }
+        .cfondo {
+            flex-direction: column;
+            max-width: 350px;
+            height: 300px;
+            margin: auto;
+        }
+        .cfondo-login{
+            display: none;
+        }
+        .header{
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+        }
+        .cfondo div {
+            margin: 0px;
+            position: absolute;
+    
+        }
+        .container__register{
+            top: -10px;
+            left: -5px;
+            margin: auto;
+        }
+        .container__register form{
+            position: relative;
+        }
+    }
+    
+    .logo {
+        max-width: 150px;
+        max-height: 150px;
+        margin-left: 20px;
+        border-radius: 150px;
+    }
+    .header__nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: 20px;
+    }
+    
+    .card {
+        margin: 10px;
+
+        color: white;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background-color: rgba(0, 0, 0, 0.323);
+        display: flex;
+    }
+    .card-body{
+        margin: 10px;
+    }
+    .productos{
+        display: flex;
+        flex-flow: wrap;
+        padding-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .wrong-password{
+        color: red;
+        display: none;
+    }
+    .wrong-data {
+        color: red;
+        display: none;
+    }
+
+    .fa-shopping-cart:hover{
+        color: rgba(0, 0, 0, 0.823);
+        background-color: white;
+    }
+
+    .btn-header-login{
+        padding: 10px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        display: block;
+    }
+
+    .btn-header-login:hover{
+        color: rgba(0, 0, 0, 0.8);
+        background-color: white;
+    }
+
+    .btn-header-logout{
+        padding: 10px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        display: none;
+        text-decoration: none;
+    }
+    .btn-header-logout a{
+        color: white;
+        text-decoration: none
+    };
+    .card-body .btn-carrito {
+        padding: 10px 40px;
+        margin-top: 10px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+    }
+    .btn-inicio{
+        padding: 10px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+    }
+    .btn-inicio a{
+        color: white;
+        text-decoration: none;
+    }
+    .anuncio{
+        background-color:rgba(0, 0, 0, 0.678) ;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .carrito{
+        margin:0px ;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.678);
+        position: relative;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .carrito #btn-acompra {
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;   
+    }
+    .btn-quitar{
+        padding: 10px 10px;
+        width: 40px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none; 
+    }
+    .btn-agregar{
+        padding: 10px 10px;
+        width: 40px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none; 
+    }
+    .titulo-cart {
+        margin-bottom: 5px;
+        padding: 0;
+        
+    }
+    .cart-title {
+        font-size: 45px;
+    }
+    .suma-total{
+        padding: 0px;
+        font-size: 35px;
+    }
+    .container-carrito{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 80%;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        display: none;
+    }
+    .consulta-envio {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        width: 150px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none; 
+        display: none;
+    }
+    #envios {
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 300px;
+        font-size: 14px;
+        background-color:white ;
+        color: black;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;
+        display: none;  
+    }
+    .agregar-quitar{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+    }
+    .cantidad{
+        padding: 15px 15px;
+        margin-top: 14px;
+    }
+    .card-text{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        display: block;
+    }
+    .cart{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .precio-envio{
+        display: block;
+    }
+    .fas {
+        color: white;
+        padding: 10px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.6) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        display: block;
+    }
+
+    #btn-a-compras{
+        display: none;
+    }
+    
+    .compra-vaciar{
+        width: 300px;
+
+        display: flex;
+    }
+    
+    #btn-compra{
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;  
+    }
+    #btn-compra:hover{
+        background-color:white;
+        color: rgba(0, 0, 0, 0.623) ;
+    }
+    #vaciar-carro{
+        padding: 10px 10px;
+        margin-top: 10px;
+        width: 100%;
+        font-size: 14px;
+        background-color:rgba(0, 0, 0, 0.323) ;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        text-decoration: none;  
+    }
+    #vaciar-carro:hover{
+        background-color:white;
+        color: rgba(0, 0, 0, 0.823) ;
+    }
+
+footer {
+    height: 300px;
+
+    max-width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(8, 12, 34);
+}
+
+.tittle{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.social{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+h2{
+    color: white;
+}
+
+.tittle h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.location h2{
+    color: rgb(0, 225, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 225, 255);
+}
+
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.copy p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-instagram, .fa-whatsapp, .fa-facebook{
+    color: white;
+    padding: 10px;
+}
+
+.fa-instagram:hover{
+    color: rgb(207, 33, 207);
+}
+
+.fa-whatsapp:hover{
+    color: rgb(53, 230, 91);
+}
+
+.fa-facebook:hover{
+    color: rgb(44, 107, 243);
+}

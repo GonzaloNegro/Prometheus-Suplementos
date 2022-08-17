@@ -1,0 +1,107 @@
+[
+    {
+        "Zona":"Buenos Aires",
+        "precio":1000,
+        "Demora":"5-10 días Habiles"
+    },
+    {
+        "Zona":"Entre Ríos",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Santa Fe",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Córdoba",
+        "precio":400,
+        "Demora":"1-3 días habiles"
+    },
+    {
+        "Zona":"La Pampa",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Río Negro",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"San Luis",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Corrientes",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Misiones",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Formosa",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Chaco",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Santiago del Estrero",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Jujuy",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Salta",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Tucumán",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Catamarca",
+        "precio":1000,
+        "Demora":"5-10 días habiles"
+    },
+    {
+        "Zona":"Mendoza",
+        "precio":2000,
+        "Demora":"7-12 días habiles"
+    },
+    {
+        "Zona":"Neuquen",
+        "precio":3000,
+        "Demora":"10-15 días habiles"
+    },
+    {
+        "Zona":"Chubut",
+        "precio":3000,
+        "Demora":"10-15 días habiles"
+    },
+    {
+        "Zona":"Santa Cruz",
+        "precio":3000,
+        "Demora":"10-15 días habiles"
+    },
+    {
+        "Zona":"Tierra del Fuego",
+        "precio":3000,
+        "Demora":"10-15 días habiles"
+    }   
+]
