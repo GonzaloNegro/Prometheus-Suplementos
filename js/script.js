@@ -205,7 +205,7 @@ function register() {
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',
-                title: 'Este usuario ya formaba parte de la comunidad RAW',
+                title: 'Este usuario ya formaba parte de la comunidad PROMETHEUS',
                 showConfirmButton: false,
                 timer: 2000
             })
@@ -362,7 +362,7 @@ function compra() {
     Swal.fire({
         position: 'top-end',
         icon: 'success',
-        title: 'Compra realizada con exito.  \n Orden de compra ' + orden + '. \n Envie el  comprobante de pago junto con el numero de orden de compra a \n raw@pedidos.com',
+        title: 'Compra realizada con exito.  \n Orden de compra ' + orden + '. \n Envie el  comprobante de pago junto con el numero de orden de compra a \n prometheus@pedidos.com',
         showConfirmButton: false,
         timer: 5000
         })
